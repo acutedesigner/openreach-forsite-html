@@ -1189,15 +1189,16 @@ table {
 table th, table td {
   text-align: left;
   padding: 0px 3px 3px 0px;
+  vertical-align: top;
 }
-/* line 10, ../sass/_tables.scss */
+/* line 11, ../sass/_tables.scss */
 table th {
   padding: 3px 3px 3px 0px;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
 
-/* line 17, ../sass/_tables.scss */
+/* line 18, ../sass/_tables.scss */
 table.data {
   text-align: left;
   font-size: 14px;
@@ -1205,16 +1206,16 @@ table.data {
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 23, ../sass/_tables.scss */
+/* line 24, ../sass/_tables.scss */
 table.data th, table.data td {
   text-align: left;
   padding: 8px;
 }
-/* line 27, ../sass/_tables.scss */
+/* line 28, ../sass/_tables.scss */
 table.data th h1, table.data th h2, table.data th h3, table.data th h4, table.data th h5, table.data th p, table.data td h1, table.data td h2, table.data td h3, table.data td h4, table.data td h5, table.data td p {
   margin-bottom: 0;
 }
-/* line 31, ../sass/_tables.scss */
+/* line 32, ../sass/_tables.scss */
 table.data th, table.data thead {
   font-weight: bold;
   background: #aaa;
@@ -1222,12 +1223,12 @@ table.data th, table.data thead {
   border-bottom: 2px solid #aaa;
   color: #fff;
 }
-/* line 38, ../sass/_tables.scss */
+/* line 39, ../sass/_tables.scss */
 table.data td {
   border-bottom: 2px solid #dddddd;
   border-top: 2px solid #dddddd;
 }
-/* line 42, ../sass/_tables.scss */
+/* line 43, ../sass/_tables.scss */
 table.data tr:hover td {
   background-color: white;
 }
