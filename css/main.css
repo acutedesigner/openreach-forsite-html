@@ -1213,7 +1213,7 @@ table.data {
 /* line 24, ../sass/_tables.scss */
 table.data th, table.data td {
   text-align: left;
-  padding: 8px;
+  padding: 8px 0px;
 }
 /* line 28, ../sass/_tables.scss */
 table.data th h1, table.data th h2, table.data th h3, table.data th h4, table.data th h5, table.data th p, table.data td h1, table.data td h2, table.data td h3, table.data td h4, table.data td h5, table.data td p {
