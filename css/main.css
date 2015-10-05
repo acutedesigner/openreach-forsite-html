@@ -238,7 +238,7 @@ header .tab {
   /* line 94, ../sass/_grid.scss */
   header .tab {
     padding: 5px 0;
-    font-size: 1.125em;
+    font-size: 20px;
   }
 }
 
@@ -1500,6 +1500,7 @@ nav ul li {
 }
 /* line 48, ../sass/_navigation.scss */
 nav ul li a {
+  font-size: 20px;
   display: block;
   padding: 0 7px 0 20px;
   color: #7A649F;
@@ -1512,37 +1513,37 @@ nav ul li a {
     padding: 0 10px 0 10px;
   }
 }
-/* line 57, ../sass/_navigation.scss */
+/* line 58, ../sass/_navigation.scss */
 nav ul li a:hover {
   color: #fff;
   background-color: #00ADEF;
 }
-/* line 63, ../sass/_navigation.scss */
+/* line 64, ../sass/_navigation.scss */
 nav ul li:first-child {
   border-top: none;
   margin: 0;
 }
-/* line 68, ../sass/_navigation.scss */
+/* line 69, ../sass/_navigation.scss */
 nav ul li:last-child {
   margin: 0;
 }
-/* line 72, ../sass/_navigation.scss */
+/* line 73, ../sass/_navigation.scss */
 nav ul li.current-menu-parent > a {
   color: #fff;
   background-color: #7A649F;
 }
-/* line 78, ../sass/_navigation.scss */
+/* line 79, ../sass/_navigation.scss */
 nav ul li:hover > ul {
   display: block;
 }
-/* line 83, ../sass/_navigation.scss */
+/* line 84, ../sass/_navigation.scss */
 nav ul ul {
   padding: 0;
   display: none;
   font-size: 1em;
   z-index: 1000;
 }
-/* line 89, ../sass/_navigation.scss */
+/* line 90, ../sass/_navigation.scss */
 nav ul ul li {
   float: none;
   border-top: 1px solid #6b727c;
@@ -1551,18 +1552,18 @@ nav ul ul li {
   text-align: left;
   border-top: 1px solid #aaa;
 }
-/* line 98, ../sass/_navigation.scss */
+/* line 99, ../sass/_navigation.scss */
 nav ul ul li a {
   padding: 0 10px 0 30px;
 }
-/* line 101, ../sass/_navigation.scss */
+/* line 102, ../sass/_navigation.scss */
 nav ul ul li a:hover {
   background-color: #7A649F;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 768px) {
-  /* line 115, ../sass/_navigation.scss */
+  /* line 116, ../sass/_navigation.scss */
   nav ul {
     border: none;
     width: auto;
@@ -1571,18 +1572,18 @@ nav ul ul li a:hover {
     display: block;
     margin-left: 20px;
   }
-  /* line 123, ../sass/_navigation.scss */
+  /* line 124, ../sass/_navigation.scss */
   nav ul:after {
     content: "";
     clear: both;
     display: block;
   }
-  /* line 127, ../sass/_navigation.scss */
+  /* line 128, ../sass/_navigation.scss */
   nav ul li {
     float: left;
     border-top: none;
   }
-  /* line 130, ../sass/_navigation.scss */
+  /* line 131, ../sass/_navigation.scss */
   nav ul li a {
     padding: 0px;
     margin-right: 14px;
@@ -1591,34 +1592,34 @@ nav ul ul li a:hover {
   }
 }
 @media (min-width: 768px) and (min-width: 1024px) {
-  /* line 130, ../sass/_navigation.scss */
+  /* line 131, ../sass/_navigation.scss */
   nav ul li a {
     padding: 0;
     margin-right: 20px;
   }
 }
 @media (min-width: 768px) {
-  /* line 141, ../sass/_navigation.scss */
+  /* line 142, ../sass/_navigation.scss */
   nav ul li a:hover {
     background: none;
     color: #7A649F;
     border-bottom: 5px solid #7A649F;
   }
-  /* line 148, ../sass/_navigation.scss */
+  /* line 149, ../sass/_navigation.scss */
   nav ul li.current-menu-parent > a {
     color: #aaa;
     background: none;
     border-bottom: 5px solid #7A649F;
   }
-  /* line 156, ../sass/_navigation.scss */
+  /* line 157, ../sass/_navigation.scss */
   nav ul li.mn-header-link {
     display: none;
   }
-  /* line 160, ../sass/_navigation.scss */
+  /* line 161, ../sass/_navigation.scss */
   nav ul li:hover > ul {
     display: block;
   }
-  /* line 165, ../sass/_navigation.scss */
+  /* line 166, ../sass/_navigation.scss */
   nav ul ul {
     margin-left: 0;
     position: absolute;
@@ -1628,14 +1629,14 @@ nav ul ul li a:hover {
     width: auto;
     background: rgba(66, 70, 75, 0.9);
   }
-  /* line 174, ../sass/_navigation.scss */
+  /* line 175, ../sass/_navigation.scss */
   nav ul ul li {
     margin: 0;
     border: 0;
     float: none;
     position: relative;
   }
-  /* line 181, ../sass/_navigation.scss */
+  /* line 182, ../sass/_navigation.scss */
   nav ul ul li a {
     text-shadow: none;
     padding: 5px 10px 5px 10px;
@@ -1645,12 +1646,12 @@ nav ul ul li a:hover {
     border: none;
     color: #fff;
   }
-  /* line 190, ../sass/_navigation.scss */
+  /* line 191, ../sass/_navigation.scss */
   nav ul ul li a:hover {
     color: #fff;
     border: none;
   }
-  /* line 196, ../sass/_navigation.scss */
+  /* line 197, ../sass/_navigation.scss */
   nav ul ul li:first-child {
     border: none;
   }
