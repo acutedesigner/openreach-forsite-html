@@ -1634,7 +1634,7 @@ nav ul ul li ul li a::before {
     top: 100%;
     padding: 0;
     display: none;
-    width: auto;
+    width: 300px;
     background: rgba(66, 70, 75, 0.9);
   }
   /* line 190, ../sass/_navigation.scss */
@@ -1653,22 +1653,22 @@ nav ul ul li ul li a::before {
     font-size: 100%;
     border: none;
     color: #fff;
+    line-height: 30px;
   }
-  /* line 206, ../sass/_navigation.scss */
+  /* line 207, ../sass/_navigation.scss */
   nav ul ul li a:hover {
     color: #fff;
     border: none;
   }
-  /* line 212, ../sass/_navigation.scss */
+  /* line 213, ../sass/_navigation.scss */
   nav ul ul li:first-child {
     border: none;
   }
-  /* line 221, ../sass/_navigation.scss */
+  /* line 222, ../sass/_navigation.scss */
   nav ul ul li ul {
     position: absolute;
     left: 100%;
     top: 0;
-    width: 100%;
     border-top: none;
   }
   /* line 228, ../sass/_navigation.scss */
