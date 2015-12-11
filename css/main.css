@@ -1029,6 +1029,7 @@ form .styled-select select {
 /* line 1, ../sass/_media.scss */
 img, video, audio, iframe, object {
   max-width: 100%;
+  height: auto;
 }
 
 /* Need a mixin that creates all the various button sizes */
